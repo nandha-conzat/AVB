@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "138290772289",
+    "project_id": "avbs-1351"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138290772289:android:3e12ae714b436057",
+        "android_client_info": {
+          "package_name": "com.rd.crystal.avb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138290772289-9dcrfo9v4fl3k3m7n3fih7evtaemm5h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rd.crystal.avb",
+            "certificate_hash": "D2AE0F6BAEFEA51807F6D71EA81A35B26D1E4421"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdiLXqqCN1z8eKhJtpoJlPyHDVX4NUDBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

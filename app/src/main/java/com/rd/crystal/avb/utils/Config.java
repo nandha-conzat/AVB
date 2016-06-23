@@ -1,0 +1,39 @@
+package com.rd.crystal.avb.utils;
+
+public interface Config {
+
+    // used to share GCM regId with application server - using php app server
+//	static final String APP_SERVER_URL = "http://budnetdesign.in/jaycee/api/login?";
+    static final String BASE_URL = "http://budnetdesign.in/avb/api/";
+    static final String APP_SERVER_URL = BASE_URL+"login?username=%s&password=%s";
+    static final String REG_USER = BASE_URL+"register?name=%s&mobile_no=%s&username=%s&password=%s&gcm_registration_id=%s";
+
+
+    // GCM server using java
+    // static final String APP_SERVER_URL =
+    // "http://192.168.1.17:8080/GCM-App-Server/GCMNotification?shareRegId=1";
+
+    // Google Project Number
+    static final String GOOGLE_PROJECT_ID = "138290772289";
+    static final String MESSAGE_KEY = "message";
+
+    public static String PARAM_MESSAGE = "msg";
+    public static final String GET_SIGN_UP_URL = "http://hobbistan.com/app/hobbistan/api.php?";
+    public static final String PARAMS_FUNC_NAME = "func_name";
+    public static final String PARAMS_USER_NAME = "username";
+
+    // Alert Dialog Constants
+    public static String ALERT_DIALOG_TITLE = "alertDialogTitle";
+    public static String ALERT_DIALOG_MESSAGE = "alertDialogMessage";
+    public static String ALERT_DIALOG_TAG = "alertDialogTag";
+    public static String ALERT_DIALOG_INPUT_HINT = "alert_dialog_input_hint";
+    public static String ALERT_DIALOG_POS_BUTTON = "alert_dialog_pos_button";
+    public static String ALERT_DIALOG_NEG_BUTTON = "alert_dialog_neg_button";
+
+    // Preferences
+    public static final String KEY_LOG_STATUS = "log_status";
+    public static final String KEY_USER_NAME = "user_name";
+    public static final String KEY_USER_PASSWORD = "user_password";
+
+
+}
